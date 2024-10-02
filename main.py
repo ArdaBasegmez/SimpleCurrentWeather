@@ -56,6 +56,7 @@ DesFrame = Frame(width=200, height=200, bg="#181d4e", borderwidth=20)
 DesFrame.place(x=55, y=270)
 image1 = Label(DesFrame, bg="#181d4e")
 image1.place(x=20, y=20)
+
 def display_weather():
     city = search_entry.get()
     api = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_key}"
