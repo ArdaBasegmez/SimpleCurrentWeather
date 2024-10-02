@@ -9,7 +9,7 @@ from geopy.geocoders import Nominatim
 Font = ("helvetica", 16)
 Font2 = ("consolas", 22, "bold")
 
-API_key = "4433fa83e0579fad10e8e4b921b0bbad"
+API_key = "Enter Your Open Weather API key"
 
 root = Tk()
 root.resizable(width=False, height=False)
